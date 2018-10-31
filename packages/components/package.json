@@ -18,10 +18,12 @@
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x",
     "jest": "^23.6.0",
+    "material-design-icons-iconfont": "^4.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-testing-library": "^5.2.3",
-    "rmwc": "^3.0.8"
+    "rmwc": "^3.0.8",
+    "typeface-roboto": "^0.0.54"
   },
   "scripts": {
     "test": "jest",

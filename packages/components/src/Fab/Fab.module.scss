@@ -1,0 +1,5 @@
+@import "@material/fab/mixins";
+
+.danger {
+  @include mdc-fab-accessible(red);
+}
