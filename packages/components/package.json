@@ -6,9 +6,17 @@
   "private": true,
   "dependencies": {
     "@babel/core": "^7.1.2",
+    "@storybook/react": "^4.0.2",
     "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "9.x",
     "babel-jest": "^23.6.0",
     "babel-preset-react-app": "^6.0.0",
+    "eslint": "5.x",
+    "eslint-config-react-app": "^3.0.5",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
     "jest": "^23.6.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
@@ -16,7 +24,8 @@
     "rmwc": "^3.0.8"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "start-storybook -p 9001 -c .storybook"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/jest/setupTests.js",
@@ -33,5 +42,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }
