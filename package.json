@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "cd packages/components && yarn test --ci ; cd ../app && yarn test --ci"
+    "test": "cd packages/components && CI=true yarn test ; cd ../app && CI=true yarn test",
+    "build": "cd packages/components && yarn build ; cd ../app && yarn build"
   }
 }
