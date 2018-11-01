@@ -6,5 +6,8 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "test": "cd packages/components && yarn test --ci ; cd ../app && yarn test --ci"
+  }
 }
