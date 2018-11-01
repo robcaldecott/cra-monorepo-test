@@ -3,3 +3,4 @@ coverage
 build
 .cache
 storybook-static
+.DS_Store

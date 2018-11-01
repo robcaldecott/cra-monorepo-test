@@ -1,0 +1,4 @@
+[submodule "create-react-app"]
+	path = create-react-app
+	url = git@github.com:robcaldecott/create-react-app
+	branch = velo-react-scripts
